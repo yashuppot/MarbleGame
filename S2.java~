@@ -1,0 +1,53 @@
+import java.util.*;
+public class S2{
+  public static void main(String [] args){
+     Scanner kb = new Scanner(System.in); 
+     
+     
+     int paired = kb.nextInt();
+     Dictionary<String, String[]> pairdic = new Dictionary<String, ArrayList<String>>();
+     for(int i =0; i< paired; i++){
+       temp = kb.next();
+       String [] temparr = temp.split(" ");
+       for(int j = 0; j<3; j++){
+         for(int k = 0; k<3 && k!= i; k++){
+           if(pairdic.get(temparr[j]) == null){
+             pairdic.put(temparr[j],new String[] {temparr[k]});
+           }
+           
+           else{
+             String [] pulled = pairdic.get(temparr[j]);
+             pulled.add(temparr[k]);
+             pairdic.put(temparr[j],pulled)
+           }
+         }
+       }
+     }
+      
+
+         
+
+     int notpaired = kb.nextInt();
+     Dictionary<String, String[]> notpairdic = new Dictionary<String, String[]>();
+     for(int i =0; i< paired; i++){
+       temp = kb.next();
+       String [] temparr = temp.split(" ");
+       notpairdic.put(temparr[0],temparr[1]);
+       notpairdic.put(temparr[1],temparr[0]);
+       notpairdic.put(temparr[0],temparr[2]);
+       notpairdic.put(temparr[2],temparr[0]);
+       notpairdic.put(temparr[1],temparr[2]);
+       notpairdic.put(temparr[2],temparr[1]);
+     }
+     
+     int groupsnum = kb.nextInt();
+     int[] groups = new int[groupsnum];
+     for(int i = 0;
+     
+     
+     
+    
+  }
+}
+       
+     

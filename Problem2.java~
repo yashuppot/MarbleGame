@@ -1,0 +1,51 @@
+import java.util.*;
+
+public class Problem2{
+  public static void main(String [] args){
+    Scanner kb = new Scanner(System.in);  // Create a Scanner obj
+
+    int n = (int)kb.nextInt(); // alphonse hand size
+    int m = (int)kb.nextInt(); //beryl hand size
+    int k = (int)kb.nextInt(); // Number of game moves.
+    
+    System.out.println("\n");
+    
+    int redA = 0;
+    int blueA= 0;
+    int redB= 0;
+    int blueB= 0;
+      
+    String [] al = kb.next().split(" ");
+    for(String s: al){
+      if(Integer.parseInt(s) == 0){
+        blueA += 1;
+      }
+      else{
+        redA+=1;
+      }
+    }
+    
+    String [] be = kb.next().split(" ");
+    
+    for(String s: be){
+      if(Integer.parseInt(s) == 0){
+        blueB += 1;
+      }
+      else{
+        redB+=1;
+      }
+    }
+    
+    String [] moves = kb.next().split(" ");
+    
+    
+    //Score is difference between alphonse
+    
+    
+    
+    
+    
+  
+  }
+}
+    
