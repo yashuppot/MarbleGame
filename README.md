@@ -16,4 +16,5 @@ Simply download the code, and build and run Marbles.java
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UJcUegpbJY8?si=nceTCTZkxMiX4hBp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[<img src="https://img.youtube.com/vi/UJcUegpbJY8/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/watch?v=UJcUegpbJY8)
