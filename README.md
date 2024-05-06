@@ -12,7 +12,6 @@ A mini-golf style game made in Java Swing where your goal is to get the marble t
 ## Set Up
 
 Simply download the code, and build and run Marbles.java
-
 <br>
 
 ## Demo
